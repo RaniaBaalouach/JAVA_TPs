@@ -8,6 +8,7 @@ public class DatabaseApp {
         String user = "root";
         String password = ""; // Replace with your MySQL password if set
 
+        
         try {
             // Explicitly load the MySQL JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
